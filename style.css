@@ -12,6 +12,24 @@ body {
     padding: 1rem 1.5rem;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: hsl(248, 32%, 49%);
+     box-shadow: 0px 5px 0px #b17095;
+    //background-color: hsl(0, 100%, 50%);
+    transition: all 0.3s ease-in-out;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
